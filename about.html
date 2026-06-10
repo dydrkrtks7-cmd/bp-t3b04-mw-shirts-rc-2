@@ -1,294 +1,163 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>망원 셔츠룸 리얼 팩트체크 단골 리뷰 아카이브 | 망원 셔츠룸 추천</title>
-  <meta name="description" content="망원 셔츠룸의 진짜 실전 체험담과 검증된 후기 데이터 공유 리포트! 바가지 눈탱이를 사전에 예방하고 가성비 힐링을 보장받으세요.">
-  <meta name="keywords" content="망원 셔츠룸 추천, 망원 셔츠룸 후기, 셔츠룸 가격비교, 단골리뷰">
-  <meta name="bpaas-design-system" content="editorial-apple">
-  <meta name="bpaas-design-theme" content="kr-cyber-dark">
-  <link rel="canonical" href="https://t3b04-mw-shirts-rc-2.pages.dev/about.html">
-  <style>
-    
-    :root {
-      --bg-color: #09090b;
-      --bg-card: #18181b;
-      --accent: #00D4B2;
-      --text: #e2e8f0;
-      --text-muted: #94a3b8;
-      --font-stack: 'Consolas', monospace;
-      --border: rgba(255, 255, 255, 0.08);
-    }
-    * { margin:0; padding:0; box-sizing:border-box; }
-    body {
-      background-color: var(--bg-color);
-      color: var(--text);
-      font-family: var(--font-stack);
-      line-height: 1.8;
-      letter-spacing: -0.01em;
-      padding: 0 20px;
-    }
-    .wrapper {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 80px 0;
-    }
-    header {
-      border-bottom: 1px solid var(--border);
-      padding-bottom: 30px;
-      margin-bottom: 50px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    .brand {
-      font-size: 1.5rem;
-      font-weight: 900;
-      color: #fff;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      text-decoration: none;
-      transition: color 0.3s;
-    }
-    .brand:hover {
-      color: var(--accent);
-    }
-    nav {
-      display: flex;
-      gap: 24px;
-    }
-    nav a {
-      color: var(--text-muted);
-      text-decoration: none;
-      font-size: 0.95rem;
-      font-weight: 600;
-      transition: color 0.3s;
-    }
-    nav a:hover {
-      color: var(--accent);
-    }
-    main {
-      padding-bottom: 60px;
-    }
-    .badge {
-      display: inline-block;
-      padding: 6px 12px;
-      background: rgba(255,255,255,0.04);
-      border: 1px solid var(--border);
-      border-radius: 20px;
-      font-size: 0.8rem;
-      font-weight: 700;
-      color: var(--accent);
-      margin-bottom: 24px;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-    }
-    h1 {
-      font-size: 2.8rem;
-      font-weight: 900;
-      color: #fff;
-      line-height: 1.25;
-      margin-bottom: 32px;
-      letter-spacing: -0.02em;
-    }
-    .hero-container {
-      position: relative;
-      border-radius: 16px;
-      padding: 48px;
-      background: linear-gradient(135deg, var(--bg-card) 0%, rgba(255,255,255,0.01) 100%);
-      border: 1px solid var(--border);
-      margin-bottom: 48px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-      overflow: hidden;
-    }
-    .hero-container::before {
-      content: '';
-      position: absolute;
-      top: -50%;
-      left: -50%;
-      width: 200%;
-      height: 200%;
-      background: radial-gradient(circle, rgba(255,255,255,0.03) 0%, transparent 70%);
-      pointer-events: none;
-    }
-    .desc-block {
-      font-size: 1.15rem;
-      color: var(--text);
-      margin-bottom: 32px;
-      font-weight: 400;
-      text-align: justify;
-    }
-    .desc-block p {
-      margin-bottom: 20px;
-    }
-    .phone-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 12px;
-      padding: 18px 36px;
-      background: var(--accent);
-      color: #fff;
-      border-radius: 50px;
-      text-decoration: none;
-      font-weight: 800;
-      font-size: 1.2rem;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.15);
-      transition: transform 0.3s, box-shadow 0.3s;
-    }
-    .phone-badge:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 6px 20px rgba(0,0,0,0.25);
-    }
-    .cards-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 24px;
-      margin-top: 48px;
-    }
-    .card {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      padding: 32px;
-      border-radius: 12px;
-      transition: border-color 0.3s, transform 0.3s;
-    }
-    .card:hover {
-      border-color: var(--accent);
-      transform: translateY(-4px);
-    }
-    .card h3 {
-      font-size: 1.25rem;
-      font-weight: 700;
-      color: #fff;
-      margin-bottom: 12px;
-    }
-    .card p {
-      font-size: 0.95rem;
-      color: var(--text-muted);
-      line-height: 1.6;
-    }
-    .review-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 16px;
-      font-size: 0.85rem;
-      font-weight: 700;
-    }
-    .review-stars {
-      color: #fbbf24;
-      letter-spacing: 2px;
-    }
-    .review-nick {
-      color: #fff;
-    }
-    .review-date {
-      color: var(--text-muted);
-    }
-    footer {
-      border-top: 1px solid var(--border);
-      padding-top: 40px;
-      margin-top: 80px;
-      text-align: center;
-      font-size: 0.9rem;
-      color: var(--text-muted);
-    }
-    footer a {
-      color: var(--text-muted);
-      text-decoration: none;
-      margin: 0 12px;
-      font-weight: 600;
-    }
-    footer a:hover {
-      color: var(--accent);
-    }
-    .blog-link {
-      display: inline-block;
-      margin-top: 24px;
-      color: var(--accent);
-      text-decoration: none;
-      font-weight: 700;
-      border-bottom: 1px solid transparent;
-      transition: border-color 0.3s;
-    }
-    .blog-link:hover {
-      border-color: var(--accent);
-    }
-    @media(max-width: 768px) {
-      body { padding: 0 15px; }
-      .wrapper { padding: 40px 0; }
-      h1 { font-size: 2.0rem; }
-      .hero-container { padding: 24px; }
-      .phone-badge { width: 100%; justify-content: center; }
-    }
-  
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>망원 셔츠룸 정보 – 가격, 위치, 서비스 총정리 | Bros</title>
+    <meta name="description" content="망원 셔츠룸, 거품 뺀 정보만 남겼다. 위치, 가격, 서비스, 진짜 후기까지. 약한 놈은 걸러라. 지금 전화 010-6279-0862.">
+    <meta name="keywords" content="망원 셔츠룸, 망원 셔츠룸 추천, 망원 셔츠룸 후기, 망원 셔츠룸 가격, 망원 셔츠룸 위치, 망원역 셔츠룸, 망원동 셔츠룸, 셔츠룸 망원, 홍대 셔츠룸, 마포 셔츠룸">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-acid-yellow">
+    <link rel="canonical" href="https://t3b04-mw-shirts-rc-2.vercel.app/">
+    <!-- OG / Twitter -->
+    <meta property="og:title" content="망원 셔츠룸 정보 | 브로들이 알려주는 리얼 텐션">
+    <meta property="og:description" content="망원에서 진짜 셔츠룸 찾는다면? 정보부터 다르다. 위치, 가격, 서비스, 진짜 후기까지. 약한 놈은 걸러라.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <style>
+        /* ===== RESET & BASE ===== */
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Courier New', monospace; background: #0d0d0d; color: #f0f0f0; line-height: 1.5; }
+        img, svg { max-width: 100%; display: block; }
+        a { color: #facc15; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        ul, ol { list-style: none; }
+        /* ===== TYPOGRAPHY ===== */
+        h1, h2, h3, h4 { text-transform: uppercase; letter-spacing: 0.05em; }
+        h1 { font-size: clamp(2rem, 6vw, 4rem); font-weight: 900; color: #facc15; margin-bottom: 1rem; }
+        h2 { font-size: clamp(1.5rem, 4vw, 2.5rem); font-weight: 700; border-left: 6px solid #facc15; padding-left: 0.75rem; margin-bottom: 1.5rem; }
+        h3 { font-size: clamp(1.2rem, 3vw, 1.8rem); font-weight: 600; margin-bottom: 1rem; }
+        p { margin-bottom: 1rem; font-size: 1rem; }
+        .text-accent { color: #facc15; font-weight: bold; }
+        .text-secondary { color: #888; }
+        /* ===== LAYOUT ===== */
+        .container { max-width: 1200px; margin: 0 auto; padding: 2rem 1rem; }
+        /* ===== HEADER / NAV ===== */
+        .site-header { background: #1a1a1a; border-bottom: 2px solid #facc15; }
+        .nav-container { display: flex; justify-content: space-between; align-items: center; padding: 0.75rem 1rem; max-width: 1200px; margin: 0 auto; }
+        .logo { font-size: 1.5rem; font-weight: 900; color: #facc15; }
+        .nav-links { display: flex; gap: 1.5rem; }
+        .nav-links a { font-weight: 600; }
+        .hamburger-menu { display: none; cursor: pointer; flex-direction: column; gap: 4px; }
+        .hamburger-menu span { width: 28px; height: 3px; background: #facc15; display: block; }
+        .tel-link { display: inline-block; background: #facc15; color: #0d0d0d; padding: 0.5rem 1rem; font-weight: 900; border-radius: 0; text-transform: uppercase; }
+        /* ===== CARD ===== */
+        .card { background: #1a1a1a; border: 2px solid #facc15; padding: 1.5rem; margin-bottom: 2rem; }
+        .card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem; }
+        .card h3 { color: #facc15; }
+        .card p { color: #ccc; }
+        .card .cta { margin-top: 1rem; display: inline-block; }
+        /* ===== FAQ ===== */
+        .faq-item { border-bottom: 1px solid #333; padding: 1rem 0; }
+        .faq-q { font-weight: 700; color: #facc15; cursor: pointer; }
+        .faq-a { margin-top: 0.5rem; }
+        /* ===== FOOTER ===== */
+        .site-footer { background: #111; border-top: 2px solid #facc15; padding: 2rem 1rem; text-align: center; }
+        .site-footer a { color: #facc15; }
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 768px) {
+            .hamburger-menu { display: flex; }
+            .nav-links { display: none; flex-direction: column; background: #1a1a1a; position: absolute; top: 60px; right: 0; left: 0; border-bottom: 2px solid #facc15; }
+            .nav-links.open { display: flex; }
+            .nav-links a { padding: 0.75rem 1rem; }
+        }
+        @media (max-width: 480px) {
+            .container { padding: 1rem; }
+        }
+    </style>
 </head>
 <body>
-  <div class="wrapper">
-    <header>
-      <a href="index.html" class="brand">망원.셔츠룸</a>
-      <nav>
-        <a href="index.html">홈</a>
-        <a href="about.html">소개</a>
-        <a href="blog.html">블로그</a>
-      </nav>
+    <header class="site-header">
+        <div class="nav-container">
+            <a href="/" class="logo">BROS SHIRTS</a>
+            <nav class="nav-links" id="navLinks">
+                <a href="/">홈</a>
+                <a href="/info">정보</a>
+                <a href="/review">후기</a>
+                <a href="/contact">문의</a>
+                <a href="tel:010-6279-0862" class="tel-link">📞 전화</a>
+            </nav>
+            <div class="hamburger-menu" id="hamburger" onclick="toggleMenu()">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
     </header>
+
     <main>
-      <div class="badge">REAL UGC FEEDBACK CONSOLE</div>
-      <h1>로컬 팩트체크 리뷰</h1>
-      <div class="hero-container" style="margin-bottom:32px;">
-        <div class="desc-block">
-          <p>합정과 망원의 핫플레이스를 장악한 리얼 셔츠룸 트렌드와 투명한 주류 가격을 1대1 비교 분석한 오피셜 정보 아카이브 페이지다 브로. 더 이상 골목길 삐끼들의 가스라이팅 단가 장난질에 지갑 버퍼를 털리지 않도록, 안전하고 검증된 프리미엄 예약 라인만 선별했다. 출발하기 전에 형의 VIP 핫라인 📞 010-6279-0862 로 전화 한 통 날려두는 거 잊지 마라. 매니저 퀄리티도 직접 엄선했다.</p><p>밤의 전설이 된 브로들의 리얼 이용 후기:
-- **합정인싸 (28, 크리에이터)**: '친구 생파로 셔츠룸 알아보다가 형 추천 라인으로 갔는데 정찰 요금 깔끔하게 나와서 술자리 뇌정지 없이 존잼으로 놈.'
-- **비즈니스맨 (32, 대기업대리)**: '해외 바이어 접대가 있어서 불안했는데 010-6279-0862 로 실장 다이얼 예약 때려두고 갔더니 최고 퀄 서비스 받음.'
-- **망원동단골 (29, 자영업)**: '다른 데서 바가지 거하게 쓰고 룸 기피증 생겼었는데 형 가이드 보고 극복함. 과일 안주 서비스 퀄이 남다름.'</p><p>룸 내부의 고급 공기 순환 위생 시스템과 프라이빗 도어락 안전성까지 직접 체크하고 승인한 리스트이니 믿고 달리면 된다 브로!</p>
-        </div>
-      </div>
-      
-      <h2 style="font-size:1.8rem; font-weight:900; margin: 40px 0 24px 0; color:#fff;">단골 브로들의 실시간 라이브 한줄평</h2>
-      <div class="cards-grid" style="grid-template-columns: 1fr; gap: 20px;">
-        
-      <div class="card">
-        <div class="review-header">
-          <span class="review-nick">독고다이마포 (2026-05-15)</span>
-          <span class="review-stars">⭐⭐⭐⭐⭐</span>
-        </div>
-        <p>실장한테 전화로 견적 미리 조율하고 갔는데 주말인데도 추가 요금 마찰 전혀 없이 투명하게 깔끔히 계산 끝남. 오디오 에코 세팅 개쩜!</p>
-      </div>
-    
-      <div class="card">
-        <div class="review-header">
-          <span class="review-nick">눈탱이방어벽 (2026-05-20)</span>
-          <span class="review-stars">⭐⭐⭐⭐⭐</span>
-        </div>
-        <p>바이어 접대가 급하게 잡혀 걱정했는데 형이 알려준 핫라인 예약 덕분에 퀄리티 높은 안주 대접하고 완전 성공 버프 받았다 브로.</p>
-      </div>
-    
-      <div class="card">
-        <div class="review-header">
-          <span class="review-nick">가성비킹 (2026-05-24)</span>
-          <span class="review-stars">⭐⭐⭐⭐⭐</span>
-        </div>
-        <p>망설이다 010-6279-0862 로 미리 통화하고 단골 예약 넣고 갔는데 무상 과일 안주 서비스 대박 퍼줘서 친구들도 대만족 인정함!</p>
-      </div>
-    
-      </div>
-      
-      <div style="margin-top:48px; text-align:center;">
-        <a href="tel:010-6279-0862" class="phone-badge">📞 단골 예약 다이얼: 010-6279-0862</a>
-      </div>
+        <section class="container">
+            <h1>망원 셔츠룸<br><span class="text-accent">정보</span></h1>
+            <p class="text-secondary">거품 뺐다. 위치, 가격, 서비스, 진짜 텐션. 망원에서 셔츠룸 가려면 이 정도는 알아야 짜지치 않는다.</p>
+
+            <div class="card">
+                <h2>📍 위치</h2>
+                <p>망원역 2번 출구에서 도보 3분. 골목 깊숙이 있어서 찐만 찾아온다. 네비 찍으면 나오긴 하는데, 진짜 찾기 싫으면 전화해라. 010-6279-0862.</p>
+                <p class="text-accent">⚠️ 주의: 근처에 가짜 업소 많다. 여기 아니면 걸러라.</p>
+            </div>
+
+            <div class="card">
+                <h2>💰 가격</h2>
+                <p>기본 13만원. 맥주/안주 포함. 2시간. 추가 1시간당 5만원. 카드 가능. 할인 없다. 찐들만 오라는 뜻.</p>
+                <p>VIP룸 25만원 (샴페인 + 안주 업). 예약 필수.</p>
+                <a href="tel:010-6279-0862" class="tel-link">예약 전화</a>
+            </div>
+
+            <div class="card-grid">
+                <div class="card">
+                    <h3>서비스</h3>
+                    <p>마인드 깡패. 실물 깡패. 텐션 끝판왕. 아가씨들 몸매? 말해 뭐해. 직접 보고 판단해라.</p>
+                </div>
+                <div class="card">
+                    <h3>시스템</h3>
+                    <p>입장 → 자리 → 인사 → 선택 → 2차. 복잡한 거 없다. 30분 내로 결정 안 하면 나가.</p>
+                </div>
+                <div class="card">
+                    <h3>드레스 코드</h3>
+                    <p>셔츠 필수. 운동화, 반바지, 슬리퍼 신고 오지 마라. 분위기 깨면 바로 퇴출.</p>
+                </div>
+            </div>
+
+            <h2>🔥 자주 묻는 개소리 (FAQ)</h2>
+            <div class="faq-item">
+                <div class="faq-q">Q. 첫 방문인데 괜찮나요?</div>
+                <div class="faq-a">A. 당연하지. 단, 찐따처럼 구면 바로 걸린다. 눈치 보지 말고 텐션 올려라.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-q">Q. 여자 혼자 와도 돼요?</div>
+                <div class="faq-a">A. 왜? 여친 데려올 거면 다른 데 가라. 여기도 남성 전용은 아니지만, 분위기상 혼자는 비추.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-q">Q. 예약 안 하면?</div>
+                <div class="faq-a">A. 웨이팅 기본 30분. 주말에는 1시간 넘게 기다려야 할 수도. 예약이 답이다.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-q">Q. 2차 어디로 가나요?</div>
+                <div class="faq-a">A. 망원 근처 호텔, 모텔 골라준다. 아가씨랑 합의 봐. 업소는 책임 안 져.</div>
+            </div>
+
+            <div style="margin-top: 2rem; text-align: center;">
+                <a href="tel:010-6279-0862" class="tel-link" style="font-size: 1.5rem; padding: 1rem 2rem;">📞 지금 전화 010-6279-0862</a>
+                <p class="text-secondary" style="margin-top: 0.5rem;">약한 놈은 걸러라. 진짜만 와라.</p>
+            </div>
+        </section>
     </main>
-    <footer>
-      <p>&copy; 2026 망원 셔츠룸 안심 가이드. All Rights Reserved.</p>
-      <p style="margin-top:12px;">
-        <a href="index.html">홈</a> | 
-        <a href="about.html">소개</a> | 
-        <a href="#">개인정보처리방침</a> | 
-        <a href="#">이용약관</a>
-      </p>
+
+    <footer class="site-footer">
+        <p>© BROS SHIRTS 망원 직영. 모든 정보는 사실입니다. <a href="tel:010-6279-0862">010-6279-0862</a></p>
+        <p><a href="/privacy">개인정보처리방침</a> | <a href="/terms">이용약관</a></p>
     </footer>
-  </div>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById('navLinks').classList.toggle('open');
+        }
+        // FAQ 클릭 토글
+        document.querySelectorAll('.faq-q').forEach(el => {
+            el.addEventListener('click', function() {
+                let answer = this.nextElementSibling;
+                answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+            });
+        });
+    </script>
 </body>
 </html>
