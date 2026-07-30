@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mangwon-review-guide.link-hub.org/sitemap.xml
-Sitemap: https://mangwon-review-guide.link-hub.org/sitemap-pages.xml
+Sitemap: https://sangsu-shirts-note.roundlog.site/sitemap.xml
+Sitemap: https://sangsu-shirts-note.roundlog.site/sitemap-pages.xml
